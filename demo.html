@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+
+<body>
+    <h1>学生信息</h1>
+    <fieldset style="width:420px">
+        <legend style="color:red">学生档案</legend>
+        <form style="line-height: 30px;">
+            姓名：<br/>
+            <input type="text" name="name" required placeholder="请输入姓名" style="width:400px;height:25px" />
+            <scan style="color:red">* </scan><br/> 学号：
+            <br/>
+            <input type="tel" name="tel" required placeholder="请输入学号" style="width:400px;height:25px" />
+            <scan style="color:red">* </scan> <br/> 手机号码：
+            <br/>
+            <input type="tel" name="tel" required placeholder="请输入手机号" style="width:400px;height:25px" />
+            <scan style="color:red">* </scan> <br/>邮箱地址：
+            <br/>
+            <input type="email" name="email" required placeholder="请输入邮箱地址" style="width:400px;height:25px" />
+            <scan style="color:red">* </scan> <br/>录取学校：
+            <br/>
+            <input type="search" name="search" list="school" style="width:405px;height:30px" />
+            <datalist id="school">
+                <option>河北师范大学</option>
+                <option>河北师范大学</option>
+                <option>河北师范大学</option>
+            </datalist>
+            <br/>入学成绩：
+            <br/>
+            <input type="number" name="score" style="width:400px;height:25px" /> <br/>入学时间：
+            <br/>
+            <input type="date" name="date" style="width:400px;height:25px" /><br/>
+            <br/>
+            <button style="width:400px;height:25px;background:#dddddd">提交</button>
+        </form>
+
+    </fieldset>
+
+
+</body>
+
+
+
+</html>
